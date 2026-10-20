@@ -1,0 +1,58 @@
+home1/hero.jpg | Pexels | 39822867 (https://www.pexels.com/photo/39822867/) | Calm dusk city skyline across the water
+home1/about.jpg | Pexels | 5816285 (https://www.pexels.com/photo/5816285/) | Consultant and client reviewing documents at a table
+home1/listing-1.jpg | Pexels | 4995025 (https://www.pexels.com/photo/4995025/) | Exterior of a small cafe storefront
+home1/listing-2.jpg | Pexels | 14590691 (https://www.pexels.com/photo/14590691/) | Warm wood restaurant interior with tables
+home1/listing-3.jpg | Pexels | 3984353 (https://www.pexels.com/photo/3984353/) | Bright fitness/yoga studio class
+home1/listing-4.jpg | Pexels | 10446281 (https://www.pexels.com/photo/10446281/) | Car in an automatic car wash tunnel
+home1/listing-5.jpg | Pexels | 35717265 (https://www.pexels.com/photo/35717265/) | Retail boutique interior with clothing racks
+home1/listing-6.jpg | Pexels | 38975797 (https://www.pexels.com/photo/38975797/) | Bakery display counter with pastries
+home1/avatar-1.jpg | Pexels | 8171180 (https://www.pexels.com/photo/8171180/) | Smiling professional woman headshot
+home1/avatar-2.jpg | Pexels | 3778603 (https://www.pexels.com/photo/3778603/) | Smiling man in suit headshot
+home1/avatar-3.jpg | Pexels | 36729739 (https://www.pexels.com/photo/36729739/) | Woman cafe owner in apron, arms crossed
+home2/hero.jpg | Pexels | 35068510 (https://www.pexels.com/photo/35068510/) | Charming boutique storefront on sunlit street corner
+home2/service-1.jpg | Pexels | 7495607 (https://www.pexels.com/photo/7495607/) | Team workshop at whiteboard with sticky notes
+home2/service-2.jpg | Pexels | 33175667 (https://www.pexels.com/photo/33175667/) | Calculator and financial report on desk
+home2/service-3.jpg | Pexels | 6814338 (https://www.pexels.com/photo/6814338/) | Handing documents across conference table
+home2/split.jpg | Pexels | 8422729 (https://www.pexels.com/photo/8422729/) | Shop owner in apron standing arms crossed
+home2/recent-1.jpg | Pexels | 2927523 (https://www.pexels.com/photo/2927523/) | Woman inside a laundromat with washers
+home2/recent-2.jpg | Pexels | 19145879 (https://www.pexels.com/photo/19145879/) | Groomer brushing a spaniel dog
+home2/recent-3.jpg | Pexels | 7108325 (https://www.pexels.com/photo/7108325/) | Patients at clinic reception desk
+home2/avatar-1.jpg | Pexels | 17582358 (https://www.pexels.com/photo/17582358/) | Smiling businessman in blue suit headshot
+home2/avatar-2.jpg | Pexels | 30161439 (https://www.pexels.com/photo/30161439/) | Laughing young woman in blazer headshot
+home2/avatar-3.jpg | Pexels | 37842959 (https://www.pexels.com/photo/37842959/) | Smiling businessman outdoors headshot
+about/banner.jpg | Pexels | 6326260 (https://www.pexels.com/photo/6326260/) | Colleagues working at laptops in a bright modern office
+about/story.jpg | Pexels | 7433869 (https://www.pexels.com/photo/7433869/) | Business advisors reviewing documents around a table
+about/team-1.jpg | Pexels | 37148308 (https://www.pexels.com/photo/37148308/) | Smiling businessman in blue suit, dark background
+about/team-2.jpg | Pexels | 1181521 (https://www.pexels.com/photo/1181521/) | Smiling businesswoman in front of office whiteboard
+about/team-3.jpg | Pexels | 6077664 (https://www.pexels.com/photo/6077664/) | Smiling businessman in black suit indoors
+about/team-4.jpg | Pexels | 8560310 (https://www.pexels.com/photo/8560310/) | Businesswoman in blazer holding laptop by white brick wall
+buy/banner.jpg | Pexels | 7260878 (https://www.pexels.com/photo/7260878/) | Calm daytime street with storefronts and pedestrians
+buy/listing-1.jpg | Pexels | 7195805 (https://www.pexels.com/photo/7195805/) | Modern beauty/hair salon interior with backwash chairs
+buy/listing-2.jpg | Pexels | 8535591 (https://www.pexels.com/photo/8535591/) | Children sitting in circle in kindergarten classroom
+buy/listing-3.jpg | Pexels | 6197108 (https://www.pexels.com/photo/6197108/) | Cleaning team in uniforms mopping and wiping a modern room
+buy/listing-4.jpg | Pexels | 6620983 (https://www.pexels.com/photo/6620983/) | Printer working with a vintage printing press in a print studio
+buy/listing-5.jpg | Pexels | 31692823 (https://www.pexels.com/photo/31692823/) | Craft brewery tanks seen through taproom window
+buy/listing-6.jpg | Pexels | 6764299 (https://www.pexels.com/photo/6764299/) | Florist handing a bouquet to a customer in a flower shop
+buy/listing-7.jpg | Pexels | 21582444 (https://www.pexels.com/photo/21582444/) | Convenience store aisle with snack shelves
+buy/listing-8.jpg | Pexels | 8985517 (https://www.pexels.com/photo/8985517/) | Mechanic lifting an engine in a car repair garage
+buy/listing-9.jpg | Pexels | 34607320 (https://www.pexels.com/photo/34607320/) | Boutique hotel reception desk lobby
+buy/guide.jpg | Pexels | 7821671 (https://www.pexels.com/photo/7821671/) | Advisor reviewing financial documents with a client at a desk
+contact/banner.jpg | Pexels | 5467595 (https://www.pexels.com/photo/5467595/) | Friendly customer support agent with headset at a laptop desk
+sell/banner | Unsplash | photo-1531058240690-006c446962d8 (https://images.unsplash.com/photo-1531058240690-006c446962d8) | Florist owner at shop counter, calm green tones
+sell/split-1 | Unsplash | photo-1785140629208-a069992af83b (https://images.unsplash.com/photo-1785140629208-a069992af83b) | Advisor pointing at valuation chart report
+sell/split-2 | Unsplash | photo-1681505531034-8d67054e07f6 (https://images.unsplash.com/photo-1681505531034-8d67054e07f6) | Handshake over signed documents, closing a deal
+franchise/banner | Unsplash | photo-1554435517-12c44b0be193 (https://images.unsplash.com/photo-1554435517-12c44b0be193) | Calm dusk retail street with boutique storefronts
+franchise/img-1 | Unsplash | photo-1758691736548-073bc97cdff4 (https://images.unsplash.com/photo-1758691736548-073bc97cdff4) | Presenter leading team training session
+franchise/img-2 | Unsplash | photo-1555371363-27a37f8e8c46 (https://images.unsplash.com/photo-1555371363-27a37f8e8c46) | Laptop showing market map for site research
+franchise/img-3 | Unsplash | photo-1746021347741-70ca98dd7343 (https://images.unsplash.com/photo-1746021347741-70ca98dd7343) | Ribbon cutting at a grand opening
+blog/banner | Unsplash | photo-1499750310107-5fef28a66643 (https://images.unsplash.com/photo-1499750310107-5fef28a66643) | Laptop, coffee and notepad on wooden desk
+blog/post-1 | Unsplash | photo-1608222351212-18fe0ec7b13b (https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b) | Business growth dashboard on laptop
+blog/post-2 | Unsplash | photo-1554224154-26032ffc0d07 (https://images.unsplash.com/photo-1554224154-26032ffc0d07) | Tax forms and calculator on desk
+blog/post-3 | Unsplash | photo-1753351052363-53ce102830eb (https://images.unsplash.com/photo-1753351052363-53ce102830eb) | Cafe owner in apron behind counter
+blog/post-4 | Unsplash | photo-1590402494587-44b71d7772f6 (https://images.unsplash.com/photo-1590402494587-44b71d7772f6) | Two colleagues arranging sticky notes strategy wall
+blog/post-5 | Unsplash | photo-1672380135241-c024f7fbfa13 (https://images.unsplash.com/photo-1672380135241-c024f7fbfa13) | Handshake between two professionals at table
+blog/post-6 | Unsplash | photo-1622219999459-ab5b14e5f45a (https://images.unsplash.com/photo-1622219999459-ab5b14e5f45a) | Piggy bank on gold coins, savings concept
+blog-details/cover | Unsplash | photo-1758876020343-c8c2add9d527 (https://images.unsplash.com/photo-1758876020343-c8c2add9d527) | Entrepreneur reviewing documents on clipboard
+blog-details/inline | Unsplash | photo-1754039985008-a15410211b67 (https://images.unsplash.com/photo-1754039985008-a15410211b67) | Hand writing a checklist in notebook
+blog-details/author | Unsplash | photo-1614023342667-6f060e9d1e04 (https://images.unsplash.com/photo-1614023342667-6f060e9d1e04) | Smiling professional man in glasses headshot
+blog-details/banner | Pexels | 590016 (https://www.pexels.com/photo/590016/) | Financial charts and reports on a wooden desk

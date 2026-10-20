@@ -1,0 +1,23 @@
+{
+  "selectors": {
+    "header": "header.site-header",
+    "logo": "header.site-header a.brand",
+    "nav": "header.site-header nav.site-nav",
+    "cta": "header.site-header a.header-cta",
+    "themeToggle": "[data-theme-toggle]",
+    "rtlToggle": "[data-rtl-toggle]",
+    "hero": "section.hero",
+    "footer": "footer.site-footer",
+    "faq": ".faq",
+    "map": "iframe.map",
+    "forms": "form[data-validate-form]",
+    "socialIcons": "footer .social a",
+    "testimonials": ".testimonial"
+  },
+  "sitePages": {
+    "index.html (Home, available listings)": ["Featured business listing cards (title, price, location, Request Details)", "Hero with CTAs to Buy/Sell", "Testimonials with avatars"],
+    "buy-a-business.html": ["Searchable/filterable listings", "Buyer enquiry form with validation", "Listing cards with price/revenue"],
+    "sell-your-business.html": ["Valuation / seller enquiry form", "Selling process steps", "FAQ"],
+    "contact.html": ["Enquiry form with validation", "Embedded map", "FAQ", "Address/phone/email"]
+  }
+}
