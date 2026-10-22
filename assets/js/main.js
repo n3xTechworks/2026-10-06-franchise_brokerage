@@ -35,6 +35,33 @@
     });
   }
   applyDir(root.getAttribute("dir") || "ltr");
+
+  /* In RTL, English text that starts or ends with punctuation (". , ! ? quotes") would show that
+     punctuation on the wrong side. An invisible left-to-right mark (U+200E) keeps it in place;
+     it has no effect in LTR. */
+  var LRM = "\u200E", SKIP = /^(SCRIPT|STYLE|TEXTAREA|NOSCRIPT|svg|use|symbol)$/i;
+  function bidiFixNode(n) {
+    var t = n.nodeValue;
+    if (!n.parentNode || !/[A-Za-z0-9]/.test(t) || SKIP.test(n.parentNode.nodeName)) return;
+    var v = t;
+    if (/[.,!?:;…%)\]”’"']\s*$/.test(v) && v.replace(/\s+$/, "").slice(-1) !== LRM) v = v.replace(/(\s*)$/, LRM + "$1");
+    if (/^\s*[“‘"'(\[&]/.test(v) && v.replace(/^\s+/, "").charAt(0) !== LRM) v = v.replace(/^(\s*)/, "$1" + LRM);
+    if (v !== t) n.nodeValue = v;
+  }
+  function bidiFix(el) {
+    if (el.nodeType === 3) return bidiFixNode(el);
+    if (el.nodeType !== 1 || SKIP.test(el.nodeName)) return;
+    var w = doc.createTreeWalker(el, NodeFilter.SHOW_TEXT, null), n;
+    while ((n = w.nextNode())) bidiFixNode(n);
+  }
+  bidiFix(doc.body);
+  if (window.MutationObserver) new MutationObserver(function (list) {
+    list.forEach(function (m) {
+      if (m.type === "characterData") bidiFixNode(m.target);
+      else m.addedNodes.forEach(bidiFix);
+    });
+  }).observe(doc.body, { childList: true, characterData: true, subtree: true });
+
   $$("[data-rtl-toggle]").forEach(function (b) {
     b.addEventListener("click", function () {
       var next = root.getAttribute("dir") === "rtl" ? "ltr" : "rtl";

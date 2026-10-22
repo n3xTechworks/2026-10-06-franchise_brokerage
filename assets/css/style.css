@@ -433,3 +433,27 @@ html[data-theme="dark"] .icon-btn[data-theme-toggle] .tg-moon{display:none}
 .icon-btn[data-rtl-toggle] .tg-ltr{display:none}
 html[dir="rtl"] .icon-btn[data-rtl-toggle] .tg-ltr{display:inline}
 html[dir="rtl"] .icon-btn[data-rtl-toggle] .tg-rtl{display:none}
+
+/* ---------- QA fixes (after-fix round 1) ---------- */
+/* Home 1: testimonial authors line up on the same row in every card */
+@media (min-width:600px){
+  .page-index .testimonial__who{align-items:flex-start}
+  .page-index .testimonial__who > div{min-height:calc(1.3rem + 2 * 1.65rem)}
+}
+/* Home 2 + Sell: step cards share rows so headings and text start at the same height */
+@supports (grid-template-rows:subgrid){
+  .page-home-2 .grid-4 > .info-card,.page-sell-your-business .grid-4 > .info-card{display:grid;grid-template-rows:subgrid;grid-row:span 3;row-gap:0;align-content:start}
+}
+/* About: team social icons stay on one line and sit at the same height in every card */
+.page-about .team-card .social{flex-wrap:nowrap;gap:8px;justify-content:center;margin-top:auto}
+.page-about .team-card .social a{width:36px;height:36px}
+.page-about .team-card .social .icon{width:16px;height:16px}
+@media (min-width:1024px) and (max-width:1179px){
+  .page-about .team-card .social{gap:5px}
+  .page-about .team-card .social a{width:31px;height:31px}
+  .page-about .team-card .social .icon{width:14px;height:14px}
+}
+/* Buy a business: smaller filter labels */
+.page-buy-a-business .filter-bar .field label{font-size:.8125rem}
+/* Navbar below desktop: keep the controls aligned to the far edge */
+@media (max-width:1179px){.site-nav + .header-actions{margin-inline-start:auto}}

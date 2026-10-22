@@ -25,6 +25,7 @@
     var v = str(value);
     if (!v) return fail("Please enter your email address.");
     if (v.indexOf("@") === -1) return fail("Email must include an \"@\" symbol.");
+    if (/[A-Z]/.test(v)) return fail("Email must be in lowercase letters, e.g. name@gmail.com.");
     if (!EMAIL_RE.test(v) || /\.\./.test(v) || /^\.|\.@/.test(v)) return fail("Please enter a valid email, e.g. name@company.com.");
     return ok();
   }

@@ -16,7 +16,7 @@ test("name: messages are specific", () => {
 });
 
 test("email: rejects missing @, domain or TLD, accepts valid", () => {
-  bad(V.email, "", "abc", "abc@", "@example.com", "abc@example", "abc@.com", "abc@example.", "a b@example.com", "a@@example.com", "john..doe@example.com", "abc@exa_mple.com", "abc@example.c");
+  bad(V.email, "", "abc", "abc@", "@example.com", "abc@example", "abc@.com", "abc@example.", "a b@example.com", "a@@example.com", "john..doe@example.com", "abc@exa_mple.com", "abc@example.c", "Test@GMAIL.com", "NAME@company.com");
   good(V.email, "name@company.com", "first.last+tag@sub.example.co.uk", "a@b.io");
   assert.match(V.email("abc").message, /@/);
 });
