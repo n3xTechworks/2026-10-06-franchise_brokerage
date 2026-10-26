@@ -457,3 +457,7 @@ html[dir="rtl"] .icon-btn[data-rtl-toggle] .tg-rtl{display:none}
 .page-buy-a-business .filter-bar .field label{font-size:.8125rem}
 /* Navbar below desktop: keep the controls aligned to the far edge */
 @media (max-width:1179px){.site-nav + .header-actions{margin-inline-start:auto}}
+.footer-legal{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px 20px}
+.footer-legal a{color:#C5D2E8}
+.footer-legal a:hover{color:#fff;text-decoration:underline}
+.page-privacy .article > :first-child,.page-terms .article > :first-child{margin-top:0}
